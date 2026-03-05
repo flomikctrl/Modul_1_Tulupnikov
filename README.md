@@ -1,15 +1,19 @@
-# Modul_1_Tulupnikov \n
+# Modul_1_Tulupnikov 
 
-Автор: Тулупников Илья \n
+Автор: Тулупников Илья 
 
-Класс Book - класс книг, хранящий в себе Title, Genre, Year, Author, IsRead \n
+Класс Book - класс книг, хранящий в себе Title, Genre, Year, Author, IsRead 
 
-Методы MarkIsRead, DisplayInfo()/ \n
+Методы MarkIsRead, DisplayInfo()/ 
 
-Класс Library - класс для хранения book \n
+Класс Library - класс для хранения book 
 
 Метод добавления книги AddBook \n
+
 Метод показа всех книг ShowAllBooks \n
+
 Метод показа книг по жанру ShowBooksByGenre \n
+
 Метод удаления книги по названию RemoveBook \n
+
 Метод получения статистики  \n
