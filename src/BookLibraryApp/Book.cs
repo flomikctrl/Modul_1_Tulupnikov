@@ -30,7 +30,7 @@ namespace BookLibraryApp
 
 
         }
-        public void MarkAsCompleted()
+        public void MarkAsRead()
         {
             IsCompleted = true;
             System.Console.WriteLine($"✓ Книга {Title} отмечена как пройденная");
