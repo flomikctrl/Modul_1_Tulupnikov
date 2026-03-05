@@ -17,7 +17,7 @@ namespace BookLibraryApp
             Platform = platform;
             IsCompleted = iscompleted;
         }
-        public void ShowInfo()
+        public void DisplayInfo()
         {
             if (IsCompleted == false)
             {
