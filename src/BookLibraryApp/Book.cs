@@ -7,25 +7,25 @@ namespace BookLibraryApp
         public string Title;
         public string Genre;
         public int Year;
-        public string Platform;
+        public string Author;
         public bool IsCompleted = false;
-        public Book(string genre, string title, int year, string platform, bool iscompleted)
+        public Book(string genre, string title, int year, string author, bool iscompleted)
         {
             Title = title;
             Genre = genre;
             Year = year;
-            Platform = platform;
+            Author = author;
             IsCompleted = iscompleted;
         }
         public void DisplayInfo()
         {
             if (IsCompleted == false)
             {
-                System.Console.WriteLine($"название игры {Title}, Жанр: {Genre}, Год{Year}, Платформа {Platform}, Статус : не пройдена.");
+                System.Console.WriteLine($"название книги {Title}, Жанр: {Genre}, Год{Year}, Автор {Author}, Статус : не прочитана.");
             }
             else
             {
-                System.Console.WriteLine($"название игры {Title}, Жанр: {Genre}, Год{Year}, Платформа {Platform}, Статус: пройдена.");
+                System.Console.WriteLine($"название книги {Title}, Жанр: {Genre}, Год{Year}, Автор {Author}, Статус: прочитана.");
             }
 
 
@@ -33,7 +33,7 @@ namespace BookLibraryApp
         public void MarkAsRead()
         {
             IsCompleted = true;
-            System.Console.WriteLine($"✓ Книга {Title} отмечена как пройденная");
+            System.Console.WriteLine($"✓ Книга {Title} отмечена как прочитанная");
         }
     }
 }
