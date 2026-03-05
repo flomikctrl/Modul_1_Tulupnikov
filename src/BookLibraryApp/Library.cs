@@ -6,8 +6,8 @@ namespace BookLibraryApp
     public class Library
     {
         // Свойства библиотеки
-        public string Name { get; }                    // Название библиотеки
-        private List<Book> Books { get; set; }        // Список книг
+        public string Name { get; }                    
+        private List<Book> Books { get; set; }        
 
         // Конструктор
         public Library(string name)
