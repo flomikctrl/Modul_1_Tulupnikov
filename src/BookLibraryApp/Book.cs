@@ -9,7 +9,7 @@ namespace BookLibraryApp
         public int Year;
         public string Platform;
         public bool IsCompleted = false;
-        public Game(string genre, string title, int year, string platform, bool iscompleted)
+        public Book(string genre, string title, int year, string platform, bool iscompleted)
         {
             Title = title;
             Genre = genre;
@@ -33,11 +33,7 @@ namespace BookLibraryApp
         public void MarkAsCompleted()
         {
             IsCompleted = true;
-            System.Console.WriteLine($"✓ Игра {Title} отмечена как пройденная");
-        }
-        public void Play()
-        {
-            System.Console.WriteLine($"Запуск игры {Title}");
+            System.Console.WriteLine($"✓ Книга {Title} отмечена как пройденная");
         }
     }
 }
