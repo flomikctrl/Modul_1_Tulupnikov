@@ -4,16 +4,16 @@
 
 Класс Book - класс книг, хранящий в себе Title, Genre, Year, Author, IsRead 
 
-Методы MarkIsRead, DisplayInfo()/ 
+Методы MarkIsRead, DisplayInfo()
 
 Класс Library - класс для хранения book 
 
-Метод добавления книги AddBook \n
+Метод добавления книги AddBook 
 
-Метод показа всех книг ShowAllBooks \n
+Метод показа всех книг ShowAllBooks 
 
-Метод показа книг по жанру ShowBooksByGenre \n
+Метод показа книг по жанру ShowBooksByGenre 
 
-Метод удаления книги по названию RemoveBook \n
+Метод удаления книги по названию RemoveBook 
 
-Метод получения статистики  \n
+Метод получения статистики 
